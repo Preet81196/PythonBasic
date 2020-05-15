@@ -30,8 +30,8 @@ for thing in [9, 41, 12, 3, 74, 15]:
 print("after",count)
 """
 
-#summing in loop (4)
-"""
+
+"""#summing in loop (4)
 sum = 0
 print("brfor",count)
 for thing in [9, 41, 12, 3, 74, 15]:
@@ -39,12 +39,12 @@ for thing in [9, 41, 12, 3, 74, 15]:
     print(sum,thing)
 print("after",sum)"""
 
-#finding avg (5)
+
 count = 0
-sum =0
-print("before",count,sum)s
+sum = 0
+print("before", count, sum)
 for value in [9, 41, 12, 3, 74, 15]:
-    count=count+1
-    sum= sum+value
+    count = count+1
+    sum = sum+value
 print(count,sum,value)
 print("after",count,sum,sum/count)
