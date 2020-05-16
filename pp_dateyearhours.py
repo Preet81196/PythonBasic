@@ -10,3 +10,4 @@ today_in_str = str(today)
 dot_index = today_in_str.find('.')
 
 print(today_in_str[0:dot_index])
+print("bye")
