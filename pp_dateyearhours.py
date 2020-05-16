@@ -5,5 +5,8 @@ from datetime import datetime
 
 today = datetime.today()
 
+today_in_str = str(today)
 
-print(today)
+dot_index = today_in_str.find('.')
+
+print(today_in_str[0:dot_index])
