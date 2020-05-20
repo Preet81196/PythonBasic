@@ -7,5 +7,6 @@ val = input("enter number ")
 list = val.split(",")
 tuple = tuple(list)
 
-print(list)
-print(tuple)
+#print(list)
+#print(tuple)
+print("this is list value {0} and this is tupal {1}".format(list,tuple))
