@@ -6,15 +6,23 @@
 """
 import timeit
 
-n = int(input('Enter n: '))
-answer = sum([each for each in range(n+1)])
-print('Sum:', answer)
-# print(timeit.timeit('sum([each for each in range(20)])', number=1))  # 4.500000000018378e-06
+# n = int(input('Enter n: '))
+# answer = sum([each for each in range(n+1)])
+# print('Sum:', answer)
+# print(timeit.timeit('sum([each for each in range(20)])', number=1))
+# 4.500000000018378e-06
+
+# Preet way
+print(timeit.timeit('reduce(lambda x, y: x+y, range(20))', setup='from functools import reduce', number=1))
+# Although I can replace range with a list of values, but internal performance
+# for using list vs range in looping is same for small iterations
+# 6.028999999962981e-06
 
 # Other way
 # answer = sum(range(n+1))
 # print('Sum:', answer)
-# print(timeit.timeit('sum(range(20))', number=1))  # 2.012999999967402e-06
+# print(timeit.timeit('sum(range(20))', number=1))
+# 2.012999999967402e-06
 
 # Upper and Lower code both are same, complexity is also same, running just a single loop and adds to a variable
 # Although Sum function is built-in and pre-compiled so its a faster solution
@@ -28,4 +36,5 @@ print('Sum:', answer)
 #     return answer
 #
 #
-# print(timeit.timeit('main()', setup='from __main__ import main', number=1))  # 3.248000000011242e-06
+# print(timeit.timeit('main()', setup='from __main__ import main', number=1))
+# 3.248000000011242e-06
