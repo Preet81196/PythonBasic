@@ -1,4 +1,4 @@
-given_str = input("Enter a Statement:   ")
+given_str = input("Enter a Statement:  p ")
 given_str =(5 * given_str)
 
 
