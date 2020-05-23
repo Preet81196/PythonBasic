@@ -1,8 +1,8 @@
-"""file_name = input("enter file name :")
+file_name = input("enter file name :")
  
 open("file_name","w")
-print(file_name)"""
-
+print(file_name)
+"""
 import os.path
 open('abc.txt', 'w')
-print(os.path.isfile('abc.txt'))
+print(os.path.isfile('abc.txt'))"""
