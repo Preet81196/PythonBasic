@@ -1,0 +1,7 @@
+Hello This is Divyesh Patel from Nadiad, Gujarat
+I am a Software Engineer by profession and I want to be a Machine Learning
+Engineer. Currently I am pursing my specialization in Python from University
+Of Michigan. I am planning to complete all the programming excercises in w3resource
+website. Python, I am coming to crack. I would also like to compolete a course
+of Machine Learning by Andrew Ng in coursera.
+This line will be added at the very end
