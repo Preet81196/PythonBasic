@@ -13,3 +13,11 @@ for each in alist:
         perfect_list.append(each)
 
 print(sorted(perfect_list))
+
+"""
+# easy method
+list1 = [1,2,2,3,4,5,5,6,2,3,1,7,8,8,6]
+
+print(set(list1))"""
+
+
