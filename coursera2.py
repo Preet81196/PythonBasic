@@ -10,7 +10,7 @@ while True:
         if smallest is None or smallest > num :
             smallest = num
     except:
-        print("INvalid input")
+        print("Invalid input")
         continue
 print("Maximum", largest)
-print("minimun", smallest)
+print("minimum", smallest)
