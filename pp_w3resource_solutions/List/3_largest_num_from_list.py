@@ -6,4 +6,4 @@ def high1(list):
         if max < i:
             max = i
     return max
-print(high1([-1,-22,-8,-2.,0]))ss
+print(high1([-1,-22,-8,-2.,0]))
