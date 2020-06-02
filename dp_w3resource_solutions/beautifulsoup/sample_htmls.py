@@ -8,8 +8,7 @@
 sample_html = """
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html;
-charset=iso-8859-1">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 <title>An example of HTML page</title>
 </head>
 <body>
@@ -25,10 +24,8 @@ elementum nunc, non elementum felis condimentum eu. In in turpis quis erat
 imperdiet vulputate. Pellentesque mauris turpis, dignissim sed iaculis eu,
 euismod eget ipsum. Vivamus mollis adipiscing viverra. Morbi at sem eget nisl
 euismod porta.</p>
-<p><a href="https://www.w3resource.com/html/HTML-tutorials.php">Learn HTML from
-w3resource.com</a></p>
-<p><a href="https://www.w3resource.com/css/CSS-tutorials.php">Learn CSS from 
-w3resource.com</a></p>
+<p><a href="https://www.w3resource.com/html/HTML-tutorials.php">Learn HTML from w3resource.com</a></p>
+<p><a href="https://www.w3resource.com/css/CSS-tutorials.php">Learn CSS from w3resource.com</a></p>
 </body>
 </html>
 """
