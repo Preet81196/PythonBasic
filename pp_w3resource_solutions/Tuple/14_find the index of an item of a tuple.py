@@ -1,0 +1,5 @@
+t1 = (1,2,3,4,5,6,7,8,9)
+ind = t1.index(9)
+print(ind)
+ind = t1.index(7)
+print(ind)
