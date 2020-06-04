@@ -2,6 +2,7 @@
 Write a Python program to display the current date and time.
 """
 
+
 from datetime import datetime
 
 today = datetime.today()
@@ -13,4 +14,4 @@ hour_in_24 = str(today.hour)
 minute = str(today.minute)
 second = str(today.second)
 
-print(year + "-" + month + "-" + day + " " + hour_in_24 + ":" + minute + ":" + second)
+print("Current date and time is:", year + "-" + month + "-" + day + " " + hour_in_24 + ":" + minute + ":" + second)
