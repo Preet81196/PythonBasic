@@ -1,3 +1,3 @@
-import pywhatkit as kit
+import pywhatkit
 
-kit.sendwhatmsg("+918141117475","preet",11,31)
+pywhatkit.sendwhatmsg("+919998366697","kem party i m python",10,13)
