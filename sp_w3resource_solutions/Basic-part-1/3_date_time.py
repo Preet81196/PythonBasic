@@ -5,4 +5,4 @@ Current date and time :
 
 import datetime
 current=datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-print("current time is",current)
+print("Current date and time :\n",current)
