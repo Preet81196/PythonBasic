@@ -1,7 +1,11 @@
-import os
+
+from os import listdir
 import re
-path = 'C:\Users\BOBBY\Desktop\rename\Tuple'
-files = os.listdir(path)
-files.sort(key=lambda var:[int(x) if x.isdigit() else x for x in re.findall(r'[^0-9]|[0-9]+', var)])
-for i, file in enumerate(files):
-    os.rename(path + file, path + "{}".format(i)+".py")
+from os.path import isfile, join
+files_list = [f for f in listdir('c:/Users/BOBBY/Desktop/rename/Tuple') if isfile(join('c:/Users/BOBBY/Desktop/rename/Tuple', f))]
+print(files_list);
+
+for i in files_list:
+    new_name = i.replace(' ','_')
+                                # work pending
+print(new_name)
