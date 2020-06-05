@@ -17,3 +17,11 @@ new_dict.update(dict2)
 new_dict.update(dict3)
 
 print(new_dict)
+
+"""no need to create new dictionary update key value pairs in dict1 """
+print("srp modified")
+dict1.update(dict2)
+dict1.update(dict3)
+
+
+print(dict1)
