@@ -3,7 +3,7 @@
 Expected Output :
 60°C is 140 in Fahrenheit
 45°F is 7 in Celsius   """
-#imp for understanding
+
 
 
 temp = input("Input the  temperature you like to convert? (e.g., 45F, 102C etc.) : ")
