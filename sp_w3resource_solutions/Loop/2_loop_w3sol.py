@@ -4,8 +4,6 @@ Expected Output :
 60°C is 140 in Fahrenheit
 45°F is 7 in Celsius   """
 
-
-
 temp = input("Input the  temperature you like to convert? (e.g., 45F, 102C etc.) : ")
 degree = int(temp[:-1])
 i_convention = temp[-1]
