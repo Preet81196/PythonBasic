@@ -13,9 +13,8 @@ from math import pi as PI
 x = str(PI)
 
 dotpos = x.find('.')
-n = 4
+n = int(input('Enter position: '))
 
 uptoplace = dotpos + 1 + n
 
 print(x[:uptoplace])
-
