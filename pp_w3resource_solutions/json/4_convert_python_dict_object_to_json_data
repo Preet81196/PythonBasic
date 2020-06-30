@@ -1,0 +1,4 @@
+import json
+j_str = {'preet': 65, 'sagar': 68, 'divlo': 53, 'hardo': 45}
+
+print(json.dumps(j_str, sort_keys=True, indent=4))
