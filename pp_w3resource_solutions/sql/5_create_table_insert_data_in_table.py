@@ -1,4 +1,3 @@
-""" 4.List the tables of given SQLite database file"""
 import sqlite3
 
 connection = sqlite3.connect('sqldata.db')
