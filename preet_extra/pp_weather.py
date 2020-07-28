@@ -13,7 +13,7 @@ while True:
     details = requests.get(url).json()
 
 
-    pprint(details)
+    pprint(type(details))
     city = details["name"]
     longitude = details["coord"]["lon"]
     latitude = details["coord"]["lat"]
